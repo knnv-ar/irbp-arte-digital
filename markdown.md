@@ -1,6 +1,6 @@
 # Guía rápida de Markdown
 
-Realizada por Raúl Federico Lacabanne (aka: knnv-ar) en estrecha relación a los documentos de la referencia. Fecha: 2022/06/30
+Realizada por Raúl Federico Lacabanne (aka: knnv-ar) en estrecha relación a los documentos de la referencia.
 
 ## Encabezados
 
@@ -54,7 +54,7 @@ Según las normas APA si el texto a citar tiene menos de 40 palabras "se debe po
 
 Pero si el texto a citar tiene 40 o más palabras debe ser citado de la siguiente manera:
 
-> Esta va a ser una cita muy larga, es decir, va a tener 40 o más palabras y la verdad es que no tengo otra cosa más que decir porque ya he dicho todo lo que tenía que expresar. Adios. (Lacabanne, 2022, pp 50-51)
+> "Esta va a ser una cita muy larga, es decir, va a tener 40 o más palabras y la verdad es que no tengo otra cosa más que decir porque ya he dicho todo lo que tenía que expresar. Adios." (Lacabanne, 2022, pp 50-51)[^nota01]
 
 ---
 
@@ -167,9 +167,15 @@ function test() {
 
 ---
 
-## Editor Markdowm online
+## Editores Markdowm online
 
 [Dillinger](https://dillinger.io/)
+
+[README](https://readme.so/es)
+
+## Editores Markdowm offline
+
+[Visual Studio Code](https://code.visualstudio.com/)
 
 ## Recursos
 
@@ -190,3 +196,7 @@ function test() {
 [Acerca de escritura y formato en GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
 
 [Markdown syntax & Github Flavored Markdown Cheet Sheet]()https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf
+
+## Referencias (funciona con versión Github Flavored Markdown)
+
+[^nota01]: Lacabanne, Raúl Federico. (2022). _Guía rápida de Markdown_. https://github.com/knnv-ar/irbp-arte-digital/blob/main/markdown.md
