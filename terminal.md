@@ -36,7 +36,7 @@ A día de hoy se suele usar el término consola como el modo no gráfico del emu
 
 ![Unix shell](./images/unix-shell.jpeg)
 
-En 1969 aparecería UNIX, el primer sistema operativo portable, multitarea y multiusuario. Para comunicarse con el sistema operativo se usaría un programa llamado Thompson shell (Ken Thopmson, 1971, Unix v1 hasta v6), el primer shell (o intérprete de línea de comandos) de Unix. A partir de la versión 7 de Unix se incorporaría el Bourne shell (Stephen Bourne, 1979, Unix v7 hasta SVR4(1989)).
+En 1969 aparecería UNIX, el primer sistema operativo portable, multitarea y multiusuario. Para comunicarse con el sistema operativo se usaría un programa llamado Thompson shell (Ken Thopmson, 1971, Unix v1 hasta v6), el primer shell (o intérprete de comandos de línea) de Unix. A partir de la versión 7 de Unix se incorporaría el Bourne shell (Stephen Bourne, 1979, Unix v7 hasta SVR4(1989)).
 
 La metáfora de la caparazón (shell) hace alusión a aquello que contiene y protege el núcleo (kernel) del sistema operativo.
 
@@ -48,7 +48,7 @@ En 1990 Paul Falstad desarrollaría Z shell, que incorpora elementos de Bourne s
 
 ![bash prompt](./images/linux-bash-prompt.jpg)
 
-Las terminales con pantalla contaban con un cursor titilante para indicar al usuario el espacio de escritura pero por sí mismo era pobre como interfaz de usuario. Por esta razón, los shells cuentan con una línea de commandos precedida por un prompt o indicador que indica el lugar a interactuar. Por ejemplo en unix contamos con un prompt con varios elementos:
+Las terminales con pantalla contaban con un cursor titilante para indicar al usuario el espacio de escritura pero por sí mismo era pobre como interfaz de usuario. Por esta razón, los shells cuentan con una línea de comandos precedida por un prompt o indicador que indica el lugar a interactuar. Por ejemplo en unix contamos con un prompt con varios elementos:
 
 `usuario@máquina:~$`
 
@@ -76,10 +76,22 @@ Arriba podemos ver otros ejemplos de personalización gráfica de shells.
 
 ## Git Bash
 
-### Lista de comandos más usados en Git Bash
+### Lista de comandos nativos en Git Bash
+
+Bash, además de ser un intérprete de comandos de línea es un muy robusto lenguaje de programación que se utiliza comunmente en los denominados **scripts de bash**.
+
+A continuación nosotros sólo nos concentraremos en algunos de los más usados comandos nativos de Git Bash:
 
 ```bash
+echo $SHELL # devuelve el nombre del shell instalado en el sistema
+
+echo $BASH_VERSION # devuelve la versión del shell de bash instalado
+
 pwd   # ver en qué directorio estoy
+
+pwd --help   # ver la ayuda del comando pwd
+
+pwd -W # ver en qué directorio estoy utilizando la opción '-W' que activa el formato de rutas de Windows
 
 cd    # cambiar directorio de usuario: Home
 
@@ -111,15 +123,15 @@ mkdir proyecto1 # crea directorio proyecto 1
 
 ls proyecto1 # cambio directorio a proyecto1
 
-touch README.md # creo un archivo README.md
+touch README.md # creo un archivo vacío con el nombre 'README.md'
 
 cd . # cambio directorio a la carpeta actual
 
 cd .. # cambio directorio a la carpeta anterior a la actual
 
-# Ahora creo abro el archivo README.md y escribo: Este es un mensaje. Guardo.
+# Ahora abro el archivo README.md con el Explorador de Windows y escribo el siguiente texto: 'Este es un mensaje'. Guardo el archivo.
 
-cat README.md # imprime en pantalla el contenido del archivo README.md
+cat README.md # el comando 'cat' (conCATenate) imprime en pantalla el contenido del archivo README.md
 
 history # muestra el historial de comandos introducidos
 
@@ -127,7 +139,33 @@ history # muestra el historial de comandos introducidos
 
 rm README.md # borra el archivo README.md: ¡¡¡¡MUCHO CUIDADO CON ESTE COMANDO!!!!
 
-echo "Este es un mensaje" > README.md # Crea el archivo README.md con el texto
+echo 'Este es un mensaje creado desde la terminal' > README.md # el comando echo repite el argumento 'Este es un mensaje creado desde la terminal' y redirecciona dicha salida con el operador '>' al archivo archivo 'README.md' que si no lo encuentra entonces lo crea.
+
+cat README.md # imprime en pantalla el contenido del archivo README.md
+
+echo 'Este es un segundo mensaje' >> README.md # el comando echo repite el argumento 'Este es un segundo mensaje' y redirecciona dicha salida de forma agregada con el operador '>>' al archivo archivo 'README.md' que si no lo encuentra entonces lo crea.
+
+cat README.md # imprime en pantalla el contenido del archivo README.md
 ```
 
-## Machete (cheet sheet)
+### Algunos atajos
+
+CTRL + A: envía cursor al principio de la línea
+
+CTRL + E: envía cursor al final de la línea
+
+ALT + B: envía el cursor al principio de la palabra anterior
+
+ALT + F: envía el cursor al principio de la palabra posterior
+
+## Referencias
+
+[GNU Bash Manuals](https://www.gnu.org/software/bash/manual/)
+
+[Bash Reference Manual v5.2 (.pdf)](https://www.gnu.org/software/bash/manual/bash.pdf)
+
+[Learn Shell](https://www.learnshell.org/)
+
+[Linux journey](https://linuxjourney.com/)
+
+[Linux journey - Gthub repository](https://github.com/cindyq/linuxjourney)
