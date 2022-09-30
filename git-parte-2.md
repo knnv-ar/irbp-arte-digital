@@ -32,7 +32,7 @@ Ver en qué estado se encuentran los elementos del repo local: `git status`
 
 ## Confirmando archivos
 
-Una confirmación (commit) es un paquete de adiciones oficial con marca indeleble de tiempo y firmado por un autor.
+Una confirmación (*commit*) es un paquete de adiciones oficial con marca indeleble de tiempo y firmado por un autor.
 
 La sintaxis del comando es la siguiente: `git commit -m "mensaje entre comillas donde establecemos una descripción resumida hecho hasta ese momento"`
 
@@ -72,13 +72,15 @@ Una rama dentro de un repositorio es una copia alternativa del mismo hasta el mo
 
 Ir al directorio del proyecto, y correr en git bash el siguiente comando: `rm -rf .git`
 
-Corroborar que el directorio oculto git haya desaparecido con: `ls -la`
+Corroborar que el directorio oculto git haya desaparecido con: `ls -al`
 
 
 Mensajes de git en VS Code:
 
 U: untracked (sin seguimiento)
+
 A: added (agregado)
+
 M: modified (archivo modificado)
 
 ===================================================

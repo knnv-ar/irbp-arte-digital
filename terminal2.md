@@ -67,7 +67,11 @@ Antes de ejecutar nuestro guión debemos asegurarnos de contar con los permisos 
 
 [SEGUIR CON EL CONTENIDO]
 
-[YA SUBI LAS IMAGENES PARA CHMOD]
+![permisos de archivos y directorios](./images/p1.jpg)
+
+![permisos de archivos y directorios](./images/chmod-01.webp)
+
+![permisos de archivos y directorios](./images/file_permissions.png)
 
 `chmod +x saludo`
 
