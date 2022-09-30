@@ -80,7 +80,9 @@ Arriba podemos ver otros ejemplos de personalización gráfica de shells.
 
 Bash, además de ser un intérprete de comandos de línea es un muy robusto lenguaje de programación que se utiliza comunmente en los denominados **scripts de bash**.
 
-A continuación nosotros sólo nos concentraremos en algunos de los más usados comandos nativos de Git Bash:
+Bash nos permite trabajar sobre la información en nuestra computadora. Por el momento vamos a considerar que disponemos sólamente de dos tipos de archivos: los **archivos regulares** y los **directorios** (o carpetas).
+
+A continuación nosotros sólo nos concentraremos en algunos de los comandos nativos de Bash más usados para trabajar sobre archivos y directorios:
 
 ```bash
 echo $SHELL # devuelve el nombre del shell instalado en el sistema
@@ -89,21 +91,19 @@ echo $BASH_VERSION # devuelve la versión del shell de bash instalado
 
 pwd   # ver en qué directorio estoy
 
-pwd --help   # ver la ayuda del comando pwd
+ls    # comando para listar la información sobre archivos y directorios
 
-pwd -W # ver en qué directorio estoy utilizando la opción '-W' que activa el formato de rutas de Windows
+ls --help   # ver la ayuda del comando ls
+
+ls -a # comando para listar con argumento -a (all) para mostrar incluso los ignorados que empiezan con .
+
+ls -al # comando para listar con argumento -a (all) y -l (long) para mostrar incluso los ignorados que empiezan con . con formato largo
 
 cd    # cambiar directorio de usuario: Home
 
 cd /  # cambiar directorio raiz de mi disco
 
 cd ~  # cambiar directorio de usuario: Home
-
-ls    # list directory
-
-ls -l # list directory en forma lista
-
-ls -la # list directory en forma lista y con elementos ocultos
 
 ^ v   # flecha arriba y flecha abajo
 
@@ -119,9 +119,21 @@ cd U[TAB] # cambia directoria a la carpeta U...
 
 cd Us[TAB] # cambia directoria a la carpeta Users porque es el único con esas dos letras
 
-mkdir proyecto1 # crea directorio proyecto 1
+mkdir prueba # crea directorio prueba
+
+rmdir prueba # elimina directorio prueba
+
+mkdir proyecto1 # crea directorio proyecto1
 
 ls proyecto1 # cambio directorio a proyecto1
+
+touch texto1.md # creo un archivo vacío con el nombre 'texto1.md'
+
+cp texto1.md texto1-copia.md # copia el archivo texto1.md a otro archivo nuevo de nombre texto1-copia.md
+
+mv texto1-copia.md README.md #renombra (mueve) el archivo texto1-copia.md al archivo README.md
+
+rm README.md # borra el archivo README.md: ¡¡¡¡MUCHO CUIDADO CON ESTE COMANDO!!!!
 
 touch README.md # creo un archivo vacío con el nombre 'README.md'
 
@@ -137,8 +149,6 @@ history # muestra el historial de comandos introducidos
 
 !32 # ejecuta el número de comando 32 del historial
 
-rm README.md # borra el archivo README.md: ¡¡¡¡MUCHO CUIDADO CON ESTE COMANDO!!!!
-
 echo 'Este es un mensaje creado desde la terminal' > README.md # el comando echo repite el argumento 'Este es un mensaje creado desde la terminal' y redirecciona dicha salida con el operador '>' al archivo archivo 'README.md' que si no lo encuentra entonces lo crea.
 
 cat README.md # imprime en pantalla el contenido del archivo README.md
@@ -147,6 +157,14 @@ echo 'Este es un segundo mensaje' >> README.md # el comando echo repite el argum
 
 cat README.md # imprime en pantalla el contenido del archivo README.md
 ```
+
+### Resumen de funciones abordadas por los comandos vistos
+
+* navegar por la información: `cd`
+* mostrar información: `pwd`, `ls`, `cat`, `clear`, `echo`
+* crear información: `mkdir`, `touch`, `cp`, `mv`, `>`
+* agregar información: `>>`
+* eliminar información: `rmdir`, `rm`
 
 ### Algunos atajos
 
