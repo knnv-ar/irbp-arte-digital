@@ -30,8 +30,8 @@ https://learngitbranching.js.org/?locale=es_ES: Git interactivo con guía: es un
 
 https://gitexplorer.com/: Sitio web que traduce acciones a comandos de Git: en este sitio indicamos qué cosas queremos hacer con Git y nos dice qué comando tenemos que ejecutar.
 
-
 ---
+
 Agrega un archivo al stage area: `git add [nombre-de-archivo]`
 
 Agrega todos los archivos del directorio actual al stage area: `git add .`
@@ -41,10 +41,6 @@ Agrega un directorio determinado al stage area: `git add [nombre-de-directorio]`
 Renueve un archivo del stage area: `git rm [nombre-de-archivo]`
 
 Commit de los archivos del stage area: `git commit -m "Mensaje"`
-
-
-
-
 
 Ramas más comunes en un proyecto:
 
@@ -89,4 +85,6 @@ Señal importante: (HEAD -> master)
 
 vi commit
 
-esc, shift, z, z 
+esc, shift, z, z
+
+Esta línea se borrará
