@@ -23,10 +23,10 @@ Para guardar el archivo y salir del editor **vi** pulsaremos en el siguiente ord
 
 Repasemos las acciones básicas en **vi**:
 
-* `i` para insertar
-* `ctrl + c` para forzar la salida de cualquier tarea que se esté ejecuantando
-* `esc` para salir del modo insertar
-* `:wq` **:** para entrar en modo comando, **w** para salvar los cambios (write) y **q** para salir (quit)
+- `i` para insertar
+- `ctrl + c` para forzar la salida de cualquier tarea que se esté ejecuantando
+- `esc` para salir del modo insertar
+- `:wq` **:** para entrar en modo comando, **w** para salvar los cambios (write) y **q** para salir (quit)
 
 ### Nuestro primer Bash script
 
@@ -51,6 +51,7 @@ Lo abro con vi:
 ```bash
 vi saludo
 ```
+
 Lo escribo:
 
 ```bash
@@ -73,11 +74,15 @@ Antes de ejecutar nuestro guión debemos asegurarnos de contar con los permisos 
 
 ![permisos de archivos y directorios](./images/file_permissions.png)
 
-`chmod +x saludo`
+`chmod 755 saludo`
 
-Una vez que nos aseguramos de contar con los permisos necesarios, podremos ejecutar nuestro script siempre con `./` para indicarle a Bash en qué directorio se  encuentra el archivo solicitado:
+El comando anterior estableció, con el código 755, que el archivo `saludo` puede ser _leido_ y _ejecutado_ por el propietario, el grupo del propietarios y por todos los usuarios del sistema, pero sólo puede ser _escrito_ por el propietario.
+
+Una vez que establecimos los permisos necesarios, podremos ejecutar nuestro script siempre con `./` para indicarle a Bash en qué directorio se encuentra el archivo solicitado:
 
 `./saludo`
+
+> Recomendamos el uso de una calculadora de permisos como la siguiente: https://www.calculadoras.uno/chmod/
 
 ### Configurando nuestro shell Bash
 

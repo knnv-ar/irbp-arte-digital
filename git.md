@@ -85,6 +85,17 @@ Señal importante: (HEAD -> master)
 
 vi commit
 
-esc, shift, z, z
+`esc`, `i`
+`esc`, `shift`, `z`, `z`
 
-Esta línea se borrará
+diff: previamente se hace un `git log` para tener a mano los números de commit
+
+- git diff [numero-de-commit1-mas-vieja] [numero-de-commit2-mas-nueva]
+
+Para volver un archivo a un commit más viejo:
+
+- git checkout [numero-de-commit] [nombre-de-archivo]
+
+Para volver un archivo al último commit del `master`:
+
+- git checkout master [nombre-de-archivo]
