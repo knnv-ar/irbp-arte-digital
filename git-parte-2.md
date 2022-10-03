@@ -18,9 +18,9 @@ repositorio en la nube (upstream repository)
 
 ## Estado de control de versión de archivos
 
-* U - archivo sin rastrear (Untracked file)
-* A - archivo agregado al índice (Added file)
-* M - archivo del índice modificado (Modified file)
+- U - archivo sin rastrear (Untracked file)
+- A - archivo agregado al índice (Added file)
+- M - archivo del índice modificado (Modified file)
 
 ## Repositorio local
 
@@ -32,7 +32,7 @@ Ver en qué estado se encuentran los elementos del repo local: `git status`
 
 ## Confirmando archivos
 
-Una confirmación (*commit*) es un paquete de adiciones oficial con marca indeleble de tiempo y firmado por un autor.
+Una confirmación (_commit_) es un paquete de adiciones oficial con marca indeleble de tiempo y firmado por un autor.
 
 La sintaxis del comando es la siguiente: `git commit -m "mensaje entre comillas donde establecemos una descripción resumida hecho hasta ese momento"`
 
@@ -74,7 +74,6 @@ Ir al directorio del proyecto, y correr en git bash el siguiente comando: `rm -r
 
 Corroborar que el directorio oculto git haya desaparecido con: `ls -al`
 
-
 Mensajes de git en VS Code:
 
 U: untracked (sin seguimiento)
@@ -100,7 +99,6 @@ Pasos para crear el repositorio en Github:
 9. En la consola hacer `git remote add <reemplazar por la url del repositorio remoto>`.
 10. luego en git bash hacer `git push -u origin main` para subir el branch main al repositorio remoto
 
-
 "" Para crear el archivo .gtignore
 
 `echo "node_modules" > .gitignore`
@@ -121,6 +119,7 @@ git remote add origin https://github.com/knnv-ar/fsdfsdf.git
 git branch -M main
 git push -u origin main
 ```
+
 https://github.com/andreybejaranodh/clase7
 
 git help
@@ -128,3 +127,19 @@ git help
 ## Herramientas complementarias
 
 https://ndpsoftware.com/git-cheatsheet.html#loc=index;
+
+---
+
+git repositoty
+
+local computer / remote computer
+
+remote computer??? Do you have access to a phisical one? Is it a virtual one? Is it a cloud service like Github?
+
+---
+
+Instalar VS Code
+Instalar git/git bash
+Ver comandos básicos de Bash
+
+SSH Secure SHell
