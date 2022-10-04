@@ -86,6 +86,8 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 3. Establecer el correo del usuario de forma global: `git config --global user.email "knvv.ar@gmail.com"`
 4. Para verificar el correo del usuario asignado al proyecto actual: `git config user.email`
 
+> **Nota:** Para ver la ayuda detallada llamar a `git config --help`
+
 ---
 
 ## 4. Crear un proyecto nuevo en local y vincular su repositorio en Github
@@ -197,3 +199,5 @@ Esta toma de conciencia está vinculada a otras que promueven la construcción d
 
 Para renombrar master a main:
 `git branch -M main`
+
+git log
