@@ -31,7 +31,7 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 
 - Windows Explorer integration && Git Bash Here && Git GUI Here
 - Git LFS
-- Associate .git\* configuration files with the default text editor
+- Associate .git configuration files with the default text editor
 - Associate .sh files to be run with Bash
 - (NEW!) Add a Git Bash Profile to Wiondows Terminal
 

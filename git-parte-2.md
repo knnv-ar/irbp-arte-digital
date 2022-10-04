@@ -7,11 +7,18 @@ https://ndpsoftware.com/git-cheatsheet.html#loc=stash;
 ```
 reserva (stash)
 v
-CARPETA DE TRABAJO (workspace)        AREA DE ARCHIVOS DE TRABAJO
+
+CARPETA DE TRABAJO (workspace, working tree, working directory)
+-Área de archivos de trabajo-
 v
-índice (index or staging area)        AREA DE ARCHIVOS PREPARADOS
+
+ÍNDICE (index o staging area)
+-Área de archivos preparados-
 v
-repositorio local (local repository)  AREA DE ARCHIVOS CONFIMADOS
+
+REPOSITORIO LOCAL (local repository)
+-Área de archivos confirmados-
+
 v
 repositorio en la nube (upstream repository)
 ```
@@ -22,7 +29,11 @@ repositorio en la nube (upstream repository)
 - A - archivo agregado al índice (Added file)
 - M - archivo del índice modificado (Modified file)
 
-## Repositorio local
+## Agregando archivos al índice
+
+```git
+git add <file>
+```
 
 Agregar un archivo determinado al repo local: `git add app.js`
 
@@ -31,6 +42,10 @@ Agregar todos los archivos de la carpeta al repo local: `git add .`
 Ver en qué estado se encuentran los elementos del repo local: `git status`
 
 ## Confirmando archivos
+
+```git
+git commit [-m <msg>]
+```
 
 Una confirmación (_commit_) es un paquete de adiciones oficial con marca indeleble de tiempo y firmado por un autor.
 
