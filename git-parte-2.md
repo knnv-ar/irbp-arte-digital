@@ -89,6 +89,22 @@ Ir al directorio del proyecto, y correr en git bash el siguiente comando: `rm -r
 
 Corroborar que el directorio oculto git haya desaparecido con: `ls -al`
 
+## fetch y pull
+
+```bash
+# https://www.gitkraken.com/learn/git/tutorials
+
+# Ver si tenemos commits nuevos sin bajar en el repositorio
+git fetch
+
+# Ver cuales son los cambios en dichos commits nuevos
+git diff ...origin
+
+# Si veo que no voy a tener conflictos, bajo los commits nuevos
+git pull
+
+```
+
 Mensajes de git en VS Code:
 
 U: untracked (sin seguimiento)
@@ -104,6 +120,7 @@ M: modified (archivo modificado)
 Pasos para crear el repositorio en Github:
 
 1. Ir a github.com y darle click en **New repository**.
+    2.  sdasd
 2. Crear la carpeta en la máquina local.
 3. Abrir la carpeta con Vscode y crear el archivo `.gitignore`.
 4. Abrir la carpeta con git bash.
