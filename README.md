@@ -9,8 +9,8 @@
 
 ### Índice
 
-1. [Guía de Bash shell](./terminal.md)
-2. [Guía de Markdown](./markdown.md)
+1. [Guía de Markdown](./markdown.md)
+2. [Guía de Bash shell](./terminal.md)
 3. [Guía de VSCode](./)
 4. [Guía de Git](./git.md)
 5. [Guía de Github](./)
