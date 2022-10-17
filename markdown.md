@@ -173,6 +173,8 @@ function test() {
 
 [README](https://readme.so/es)
 
+[Generador de tablas de Markdown](https://www.tablesgenerator.com/markdown_tables)
+
 ## Editores Markdowm offline
 
 [Visual Studio Code](https://code.visualstudio.com/)
