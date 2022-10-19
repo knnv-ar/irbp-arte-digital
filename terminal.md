@@ -125,7 +125,7 @@ rmdir prueba # elimina directorio prueba
 
 mkdir proyecto1 # crea directorio proyecto1
 
-ls proyecto1 # cambio directorio a proyecto1
+cd proyecto1 # cambio directorio a proyecto1
 
 touch texto1.md # creo un archivo vacío con el nombre 'texto1.md'
 
