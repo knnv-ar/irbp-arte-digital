@@ -85,8 +85,34 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 2. Para verificar la identidad del usuario asignado al proyecto actual: `git config user.name`
 3. Establecer el correo del usuario de forma global: `git config --global user.email "knvv.ar@gmail.com"`
 4. Para verificar el correo del usuario asignado al proyecto actual: `git config user.email`
+5. Establecer que el nombre de la rama principal sea <**main**>:
+    1. Windows: `git config --global init.defaultbranch main`
+    2. GNU/Linux: `git config --global init.default branch main`
+7. Para verificar el nombre de la rama principal:
+    1. Windows: `git config --global init.defaultbranch`
+    2. GNU/Linux: `git config --global init.default branch`
+8. Para ver las configuraciones globales de git: `git config --global --list`
 
 > **Nota:** Para ver la ayuda detallada llamar a `git config --help`
+
+**Lugar de almacenamiento de la configuración de Git en Windows**
+
+| Ámbito   | Lugar                      | Nombre de archivo |
+|----------|----------------------------|-------------------|
+| System   | mingw32\etc o mingw64\etc  | gitconfig         |
+| Global   | C:\Usuario\<nombreUsuario> | .gitconfig        |
+| Local    | carpeta .git del repo      | config            |
+| Worktree | carpeta .git del repo      | config.worktree   |
+| Portable | C:\ProgramData\Git\        | config            |
+
+**Lugar de almacenamiento de la configuración de Git en GNU/Linux**
+
+| Ámbito   | Lugar                      | Nombre de archivo |
+|:--------:|:--------------------------:|:-----------------:|
+| System   | ~etc/  | gitconfig         |
+| Global   | ~home/<nombreUsuario> o root/ con sudo | .gitconfig        |
+| Local    | carpeta .git del repo      | config            |
+| Worktree | carpeta .git del repo      | config.worktree   |
 
 ---
 
