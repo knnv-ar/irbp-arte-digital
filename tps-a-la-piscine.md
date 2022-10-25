@@ -125,6 +125,40 @@ git branch <main>: crear rama <main>
 git chackout <main>: me posiciono en rama <main>
 git branch -D <master>: elimina la rama <master>
 
+---
+
+function setup() {
+  canvas = createCanvas(710, 400);
+  canvas.parent('div-sketch');
+}
+
+-----------------------------------------------------------------
+
+---
+layout: post
+title: "Representación del aura"
+date: 2020-12-10
+thumbnail: thumbnail.png
+dependencies:
+  - p5
+  - p5.sound
+---
+
+<div id="div-sketch">
+    <script type="text/javascript" src="sketch.js"></script>
+</div>
+
+<Nombre-y-Apellido-Autor-a>, 2022.
+
+**Título de la obra**
+
+Breve descripción.
+
+**Desarrollo técnico, estético y conceptual**
+
+Texto párrafo 1.
+Texto párrafo 2.
+Texto párrafo 3.
 
 
 
