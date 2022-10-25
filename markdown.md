@@ -28,7 +28,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus et nulla 
 
 ## Estilos de texto
 
-_\cursiva_\: _Este texto está en cursiva._
+_Este texto está en cursiva._
 
 **Este texto está en negrita.**
 
