@@ -151,7 +151,7 @@ Agrega un directorio determinado (y todo su contenido) al stage area: `git add [
 
 Remueve un archivo del stage area: `git rm [nombre-de-archivo]`
 
-Commit de los archivos del stage area: `git commit -m "Mensaje"`
+Commit de los archivos del stage area: `git commit -m "Mensaje"` o bien `git commit -m "Mensaje" -m "Descripción"`
 
 Ramas más comunes en un proyecto:
 
