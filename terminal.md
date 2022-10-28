@@ -85,77 +85,117 @@ Bash nos permite trabajar sobre la información en nuestra computadora. Por el m
 A continuación nosotros sólo nos concentraremos en algunos de los comandos nativos de Bash más usados para trabajar sobre archivos y directorios:
 
 ```bash
-echo $SHELL # devuelve el nombre del shell instalado en el sistema
+# Devuelve el nombre del shell instalado en el sistema:
+echo $SHELL
 
-echo $BASH_VERSION # devuelve la versión del shell de bash instalado
+# Devuelve la versión del shell de bash instalado:
+echo $BASH_VERSION
 
-pwd   # ver en qué directorio estoy
+# Devuelve el directorio donde estoy actualmente (print working directory):
+pwd
 
-ls    # comando para listar la información sobre archivos y directorios
+# Listar la información sobre archivos y directorios:
+ls
 
-ls --help   # ver la ayuda del comando ls
+# Devuelve la ayuda del comando ls:
+ls --help
 
-ls -a # comando para listar con argumento -a (all) para mostrar incluso los ignorados que empiezan con .
+# Con el agregador del argumento -a (all), lista incluso los elementos ignorados que empiezan con .:
+ls -a
 
-ls -al # comando para listar con argumento -a (all) y -l (long) para mostrar incluso los ignorados que empiezan con . con formato largo
+# Con el agregador del argumento -a (all) y -l (long), lista incluso los elementos ignorados que empiezan con . y lo muestra con formato largo:
+ls -al 
 
-cd    # cambiar directorio de usuario: Home
+# Cambia a directorio de usuario: Home
+cd
 
-cd /  # cambiar directorio raiz de mi disco
+# Cambia a directorio raiz:
+cd /
 
-cd ~  # cambiar directorio de usuario: Home
+# Cambia a directorio de usuario: Home:
+cd ~
 
-^ v   # flecha arriba y flecha abajo
+# Con flecha arriba y flecha abajo navegamos por el historial de comandos introducidos:
+^ v
 
-clear o ctrl/cmd+l # limpiar la pantalla de la terminal
+# Limpia la pantalla de la terminal:
+clear o ctrl/cmd+l
 
-cd /C # cambiar directorio raiz de mi disco c
+# Cambia a directorio raiz de la unidad c:
+cd /C
 
-cd Users # cambiar directorio Users
+# Cambia a directorio Users:
+cd Users
 
-cd .. # para volver al directorio anterior
+# Los dos puntos permiten volver al directorio anterior:
+cd ..
 
-cd U[TAB] # cambia directoria a la carpeta U...
+# Cambia directorio a la carpeta U...:
+cd U[TAB]
 
-cd Us[TAB] # cambia directoria a la carpeta Users porque es el único con esas dos letras
+# Cambia directorio a la carpeta Users porque es el único con esas dos letras:
+cd Us[TAB]
 
-mkdir prueba # crea directorio prueba
+# Crea directorio <prueba>:
+mkdir prueba
 
-rmdir prueba # elimina directorio prueba
+# Elimina directorio <prueba>:
+rmdir prueba
 
-mkdir proyecto1 # crea directorio proyecto1
+# Crea directorio <proyecto1>:
+mkdir proyecto1
 
-cd proyecto1 # cambio directorio a proyecto1
+# Cambia directorio a <proyecto1>:
+cd proyecto1
 
-touch texto1.md # creo un archivo vacío con el nombre 'texto1.md'
+# Crea un archivo vacío con el nombre <texto1.md>:
+touch texto1.md
 
-cp texto1.md texto1-copia.md # copia el archivo texto1.md a otro archivo nuevo de nombre texto1-copia.md
+# Copia el archivo <texto1.md> a otro archivo nuevo de nombre <texto1-copia.md>:
+cp texto1.md texto1-copia.md
 
-mv texto1-copia.md README.md #renombra (mueve) el archivo texto1-copia.md al archivo README.md
+# Renombra (mueve) el archivo <texto1-copia.md> al archivo <README.md>:
+mv texto1-copia.md README.md
 
-rm README.md # borra el archivo README.md: ¡¡¡¡MUCHO CUIDADO CON ESTE COMANDO!!!!
+# Borra el archivo README.md: ¡¡¡¡MUCHO CUIDADO CON ESTE COMANDO PORQUE NO SE PUEDE RECUPERA LO ELIMINADO!!!!:
+rm README.md
 
-touch README.md # creo un archivo vacío con el nombre 'README.md'
+# Creo un archivo vacío con el nombre <README.md>:
+touch README.md
 
-cd . # cambio directorio a la carpeta actual
+# Cambio directorio a la carpeta actual:
+cd .
 
-cd .. # cambio directorio a la carpeta anterior a la actual
+# Cambio directorio a la carpeta anterior a la actual:
+cd ..
 
-# Ahora abro el archivo README.md con el Explorador de Windows y escribo el siguiente texto: 'Este es un mensaje'. Guardo el archivo.
+# Ahora abro el archivo <README.md> con el Explorador de Windows y escribo el siguiente texto: 'Este es un mensaje'. Guardo el archivo.
 
-cat README.md # el comando 'cat' (conCATenate) imprime en pantalla el contenido del archivo README.md
+# El comando 'cat' (conCATenate) imprime en pantalla el contenido del archivo <README.md>:
+cat README.md
 
-history # muestra el historial de comandos introducidos
+# Muestra el historial de comandos introducidos:
+history
 
-!32 # ejecuta el número de comando 32 del historial
+# Ejecuta el número de comando 32 del historial:
+!32
 
-echo 'Este es un mensaje creado desde la terminal' > README.md # el comando echo repite el argumento 'Este es un mensaje creado desde la terminal' y redirecciona dicha salida con el operador '>' al archivo archivo 'README.md' que si no lo encuentra entonces lo crea.
+# El comando echo repite el argumento 'Este es un mensaje creado desde la terminal' y redirecciona dicha salida con el operador '>' al archivo archivo <README.md> que si no lo encuentra entonces lo crea:
+echo 'Este es un mensaje creado desde la terminal' > README.md
 
-cat README.md # imprime en pantalla el contenido del archivo README.md
+# Imprime en pantalla el contenido del archivo <README.md>:
+cat README.md
 
-echo 'Este es un segundo mensaje' >> README.md # el comando echo repite el argumento 'Este es un segundo mensaje' y redirecciona dicha salida de forma agregada con el operador '>>' al archivo archivo 'README.md' que si no lo encuentra entonces lo crea.
+# El comando echo repite el argumento 'Este es un segundo mensaje' y redirecciona dicha salida de forma agregada con el operador '>>' al archivo archivo <README.md> que si no lo encuentra entonces lo crea:
+echo 'Este es un segundo mensaje' >> README.md
 
-cat README.md # imprime en pantalla el contenido del archivo README.md
+# Imprime en pantalla el contenido del archivo <README.md>:
+cat README.md
+
+# Tanto start o en su defecto explorer abren el archivo indicado con la aplicación por defecto:
+start libro.pdf
+
+explorer libro.pdf
 ```
 
 ### Resumen de funciones abordadas por los comandos vistos
