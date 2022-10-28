@@ -174,6 +174,9 @@ git switch main
 
 # Fusionar rama new-features en main:
 git merge new-feature
+
+# Este paso no es obligatorio sin embargo luego de fusionar a main se suele borrar la rama de feature:
+git branch -d new-feature
 ```
 ---
 
