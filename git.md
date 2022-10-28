@@ -79,7 +79,7 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 
 ---
 
-## 3. Configuración de nombre de usuario y correo de usuario en local
+## 3. Configuración de nombre de usuario y correo de usuario en local y rama principal
 
 1. Establecer la identidad del usuario de forma global: `git config --global user.name "knnv-ar"`
 2. Para verificar la identidad del usuario asignado al proyecto actual: `git config user.name`
@@ -135,7 +135,49 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 
 ---
 
-## 6. Sitios de interes
+## 6. Ramas
+
+```bash
+# Ver las ramas que tengo en local:
+git branch
+
+# Crear nueva rama de nombre 'foo':
+git branch foo
+
+# Cambiar a rama foo:
+git switch foo
+```
+---
+
+## 7. Agregar y quitar archivos en stage area
+
+```bash
+# Agregar archivo en stage area:
+git add archivo.md
+
+# Quitar archivo de la stage area:
+git remove --staged archivo.md
+```
+---
+
+## 8. Comparar y fusionar ramas
+
+```bash
+# Comparar las diferencias entre dos ramas (atender a los dos puntos que unen ambas):
+git diff main..new-feature
+
+# Comparar las diferencias del archivo.md entre dos ramas (atender a los dos puntos que unen ambas y los dos guiones y el espacio antes del nombre del archivo):
+git diff main..new-feature -- archivo.md
+
+# Ir a la rama donde quiero fusionar los cambios (rama de destino):
+git switch main
+
+# Fusionar rama new-features en main:
+git merge new-feature
+```
+---
+
+## Apéndice. Sitios de interes
 
 https://learngitbranching.js.org/?locale=es_ES: Git interactivo con guía: es un sitio que propone desarrollar los conceptos de Git en forma guiada y gráfica.
 
