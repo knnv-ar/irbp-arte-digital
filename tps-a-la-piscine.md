@@ -2,13 +2,25 @@
 
 Realizada por Raúl Federico Lacabanne (aka: knnv-ar)
 
-## 1. Descargar los proyectos del editor de p5js
+## Bloque 1. Descargar los proyectos del editor de p5js
 
 1. Ingresá con tu usuario al sitio https://editor.p5js.org/
+2. Clic en `File > Open` y seleccionar el TPNº1.
+3. Clic en `File > Download`y guardar el archivo zip en una carpeta en el escritorio llamada `tps-originales`.
+4. Repetir pasos 2 y 3 pero seleccionando el TPNº2.
 
-2. Clic en `File > Open` 
+## Bloque 3. Descomprimir y adecuar los proyectos para su montaje en la galería
 
-## 2. Descargar los proyectos del editor de p5js
+1. Descomprimir en una carpeta propia el TPNº1 descargado en el bloque primero.
+2. Copiar los archivos `sketch.js` y los archivos de medios usados (imágenes, sonidos, mùsica, video, objetos 3D, fuentes, etc) a una carpeta nueva dentro de `code`. El nombre de la carpeta debe ser como el título de la obra, sin espacios ni tildes, utilizando el signo `-` con separador de palabras: por ejemplo, `titulo-de-la-obra`.
+3. Crear con la consola dos archivos en dicha carpeta: `touch statement.md` 
+
+
+arhivos dentro de la carpeta:
+
+- sketch.js
+- statement.md
+- thumbnail.png
 
 Texto.
 
