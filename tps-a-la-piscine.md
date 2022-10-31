@@ -89,8 +89,30 @@ canvas.parent('div-sketch');
 14. Copiá la carpeta del TP a la carpeta `subir` del Escritorio.
 15. Por último, repetí pasos 1 al 13 pero seleccionando el TPNº 2.
 
-## Bloque 5. Forkeá, cloná y hacé una petición de aceptación del código enviado
+## Bloque 5. Forkeá, brancheá y hacé una petición de aceptación del código enviado
 
+1. Ingresá con tu usuario al sitio https://github.com/.
+2. Ingresá al repositorio https://github.com/knnv-ar/la-piscine.
+3. Cliqueá en el botón **Fork** y luego en el botón **Create fork**.
+4. Una vez creada la bifurcación (fork) deberemos crear una rama (branch) de trabajo propia. Para esto hagamos clic en el botón `1 branch`.
+5. Cliqueá en el botón **New branch**.
+6. En el área de texto _Branch name_ escribí tu nombre, apellido y tpn1 separados por un guión medio: por ejemplo: `martin-antuña-tpn1`.
+7. En el área de texto _Branch source_ seleccioná la opción **knnv-ar/la-piscine** y luego cliqueá en el botón **Create branch**.
+8. Volvé a la carpeta correspondiente tu fork `<la-piscine>`.
+9. Cliqueá el botón de la rama `main` y luego cliqueá en la rama `nombre-apellido-tpn1`.
+10. Ingresá a la carpeta `_projects`.
+11. Cliqueá en el botón `Add file` y luego `Upload files`.
+14. Arrastrá y soltá la carpeta de tu TPNº 1 que se encuentra en `subir` en el área **Drag files here to add them to your repository**.
+15. En el área del mensaje del commit escribí tu nombre y apellido seguido de TPN1: por ejemplo: `Martín Antuña TPN1`.
+16. Seleccioná la opción **Commit directly to the nombre-apellido-tp1 branch.**.
+17. Cliqueá el botón `Commit changes`.
+18. El paso anterior habilitará la posibilidad de una petición de aceptación (pull request). Cliqueá el botón `Contribute` y luego `Open pull request`.
+19. Cliqueá el botón `Create pull request`.
+20. Por último, volvé a tu fork de l
+
+
+
+sólo queda esperar que el administrador de la galería <la-piscine> acepte la petición. 
 ---
 
 Texto.
