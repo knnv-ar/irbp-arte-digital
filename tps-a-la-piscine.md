@@ -98,7 +98,7 @@ canvas.parent('div-sketch');
 5. Cliqueá en el botón **New branch**.
 6. En el área de texto _Branch name_ escribí tu nombre, apellido y tpn1 separados por un guión medio: por ejemplo: `martin-antuña-tpn1`.
 7. En el área de texto _Branch source_ seleccioná la opción **knnv-ar/la-piscine** y luego cliqueá en el botón **Create branch**.
-8. Volvé a la carpeta correspondiente tu fork `<la-piscine>`.
+8. Volvé a la carpeta correspondiente a tu fork `<la-piscine>`.
 9. Cliqueá el botón de la rama `main` y luego cliqueá en la rama `nombre-apellido-tpn1`.
 10. Ingresá a la carpeta `_projects`.
 11. Cliqueá en el botón `Add file` y luego `Upload files`.
@@ -108,39 +108,8 @@ canvas.parent('div-sketch');
 17. Cliqueá el botón `Commit changes`.
 18. El paso anterior habilitará la posibilidad de una petición de aceptación (pull request). Cliqueá el botón `Contribute` y luego `Open pull request`.
 19. Cliqueá el botón `Create pull request`.
-20. Por último, volvé a tu fork de l
+20. Por último, volvé a la carpeta correspondiente a tu fork `<la-piscine>` y repetí los pasos 5 a 19 pero esta vez creando una rama que sea `nombre-apellido-tpn2` y subí la carpeta correspondiente al TPNº 2.
 
+Sólo resta esperar a que el administrador de la galería <la-piscine> acepte la petición realizada.
 
-
-sólo queda esperar que el administrador de la galería <la-piscine> acepte la petición. 
----
-
-Texto.
-
-## 4. Descargar los proyectos del editor de p5js
-
-Texto.
-
-En el `sketch.js` ingresar en el setup estas dos líneas de código:
-
-```js
-canvas = createCanvas(512, 512);
-canvas.parent("div-sketch");
-```
-
----
-
-git branch <main>: crear rama <main>
-git chackout <main>: me posiciono en rama <main>
-git branch -D <master>: elimina la rama <master>
-
----
-
-function setup() {
-  canvas = createCanvas(710, 400);
-  canvas.parent('div-sketch');
-}
-
------------------------------------------------------------------
-
-
+¡Felicitaciones llegaste al final del proceso de montaje de tus TPNº 1 y 2 en la galería `<la-piscine>`!
