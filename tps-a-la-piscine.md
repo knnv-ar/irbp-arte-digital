@@ -79,15 +79,16 @@ let canvas = createCanvas(512, 512);
 canvas.parent('div-sketch');
 ```
 
-12. Una vez finalizado, guardá los cambios del archivo `sketch.js`.
-13. A todo esto tendrías que tener en la carpeta del TP los siguientes arhivos:
+12. Por otro lado, si tu TP tuviera uno o más archivos `.js` además del `sketch.js`, tendrás que abrirlos y copiar todo el contenido de cada archivo `.js` adicional a continuación de la última línea de código de `sketch.js` para así tener todo el código en un mismo archivo. 
+13. Una vez finalizado, guardá los cambios del archivo `sketch.js`.
+14. A todo esto tendrías que tener en la carpeta del TP los siguientes arhivos:
 
 - sketch.js
 - statement.md
 - thumbnail.png
 
-14. Copiá la carpeta del TP a la carpeta `subir` del Escritorio.
-15. Por último, repetí pasos 1 al 13 pero seleccionando el TPNº 2.
+15. Copiá la carpeta del TP a la carpeta `subir` del Escritorio.
+16. Por último, repetí pasos 1 al 13 pero seleccionando el TPNº 2.
 
 ## Bloque 5. Forkeá, brancheá y hacé una petición de aceptación del código enviado
 
