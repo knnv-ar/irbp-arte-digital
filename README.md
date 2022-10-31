@@ -7,21 +7,22 @@
 1. VSCode
 2. Git
 
-### Índice
+## Tabla de contenidos
 
 1. [Guía de Markdown](./markdown.md)
 2. [Guía de Bash shell](./terminal.md)
-3. [Guía de VSCode](./)
+3. [Guía de VSCode](./vscode.md)
 4. [Guía de Git](./git.md)
-5. [Guía de Github](./)
+5. Guía de Github
+6. [Guía de montaje de TPs en la galería](./tps-a-la-piscine.md)
 
-Herramientas para la tercera década del s21:
+## Herramientas para la tercera década del s21:
 
 - Markdown (escritura ágil)
 - MarkText (editor para escritura ágil)
 - JavaScript (p5.js)
 - Git, Git bash & Github (versiones)
-- Github Pages, Jeckill
+- Github Pages
 - Github Projects
 
 - Agile, Scrum, Kanban
