@@ -1,4 +1,4 @@
-# Guía montaje de TPs de AM1 en `<la-piscine>`
+# Guía de montaje de TPs para la galería `<la-piscine>`
 
 Realizada por Raúl Federico Lacabanne (aka: knnv-ar)
 
