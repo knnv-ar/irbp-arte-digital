@@ -2,12 +2,27 @@
 
 Realizada por Raúl Federico Lacabanne (aka: knnv-ar)
 
-## Bloque 1. Descargar los proyectos del editor de p5js
+## Bloque 1. Crear carpetas de trabajo
 
-1. Ingresá con tu usuario al sitio https://editor.p5js.org/
-2. Clic en `File > Open` y seleccionar el TPNº1.
-3. Clic en `File > Download`y guardar el archivo zip en una carpeta en el escritorio llamada `tps-originales`.
-4. Repetir pasos 2 y 3 pero seleccionando el TPNº2.
+1. Creá las carpetas de trabajo en el Escritorio: `descargar` y `subir`.
+2. Dentro de la carpeta `descargar` creá dos carpetas con el nombre de tus TPs, con palabras separadas por guiones medios; por ejemplo :`bola-de-fetiche` o `entrando-al-flujo`.
+
+## Bloque 2. Descargar los TPs del editor de p5js
+
+1. Ingresá con tu usuario al sitio https://editor.p5js.org/.
+2. Cliqueá en `File > Open` y seleccionar el TPNº 1.
+3. Cliqueá en `File > Download`y guardar el archivo zip en la carpeta `descargar`.
+4. Repetí pasos 2 al 3 pero seleccionando el TPNº 2.
+
+## Bloque 3. Generar miniaturas de los TPs
+
+1. Volvé al sitio https://editor.p5js.org/.
+2. Cliqueá en `File > Open` y seleccionar el TPNº 1.
+3. Ejecutá la aplicación y hacer una captura de pantalla en un momento representativo de nuestro trabajo. En Windows usar el atajo: `Windows + Mayús + S` y seleccionar pantalla completa.
+4. Abrí Photoshop (o símil) generá un archivo nuevo con el tañamo total de tu escritorio, y luego pegá el contenido del Portapeles.
+5. Recortá el área de representación de tu trabajo y luego seleccioná `Imagen > Tamaño de imagen` y en Anchura y Altura colocá el valor **360**.
+6. Seleccioná `Archivo > Exportar > Exportación rápida como PNG` y guardá el archivo en la carpeta correspondiente al nombre de tu TPNº 1 que se encuentra en la carpeta `descargar`.
+7. Repetí pasos 2 al 6 pero seleccionando el TPNº 2.
 
 ## Bloque 3. Descomprimir y adecuar los proyectos para su montaje en la galería
 
