@@ -112,4 +112,4 @@ canvas.parent('div-sketch');
 
 Sólo resta esperar a que el administrador de la galería <la-piscine> acepte la petición realizada.
 
-## ¡Felicitaciones llegaste al final del proceso de montaje de tus TPNº 1 y 2 en la galería `<la-piscine>`!
+### ¡Felicitaciones llegaste al final del proceso de montaje de tus TPNº 1 y 2 en la galería `<la-piscine>`!
