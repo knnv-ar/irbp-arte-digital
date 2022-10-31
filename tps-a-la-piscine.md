@@ -31,7 +31,7 @@ Realizada por Raúl Federico Lacabanne (aka: knnv-ar)
 3. Creá en la misma carpeta un archivo `statement.md` mediante vscode o la consola: `touch statement.md`. **Importante**: El archivo markdown creado en el paso 3 será el archivo central que vinculará tu declaración de obra (es decir el componente **Escrito** de la entrega del TP) con el **sketch** (`sketch.js`) y el **thumbnail** (`thumbnail.png`).
 4. Tomá como referencia el marchivo `statement.md` del [modelo de obra](https://github.com/knnv-ar/la-piscine/tree/main/_projects/modelo-de-obra) adecuá los contenidos de las siguientes líneas de código al lenguaje markdown:
     1.  **línea 03**: entre las comillas dobles escribí el nombre de tu obra.
-    2.  **línea 03**: entre los guiones bajos escribí tu nombre y apellido.
+    2.  **línea 15**: entre los guiones bajos escribí tu nombre y apellido.
     3.  **línea 17 y posteriores**: tomá el texto del **Escrito** y transpasalo respetando las normas del lengueje markdown.
 5. Para tener una idea más acabada, a continuación presentamos una versión abreviada de una posible aplicación:
 
