@@ -14,7 +14,7 @@
 3. [Guía de VSCode](./vscode.md)
 4. [Guía de Git](./git.md)
 5. Guía de Github
-6. [Guía de montaje de TPs en la galería](./tps-a-la-piscine.md)
+6. [Guía de montaje de TPs para la galería `<la-piscine>`](./tps-a-la-piscine.md)
 
 ## Herramientas para la tercera década del s21:
 
