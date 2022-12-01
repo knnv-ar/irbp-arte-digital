@@ -157,6 +157,9 @@ git add archivo.md
 
 # Quitar archivo de la stage area:
 git remove --staged archivo.md
+
+# Quitar todos los archivos del stage area en la carpeta actual:
+git reset HEAD -- .
 ```
 ---
 
