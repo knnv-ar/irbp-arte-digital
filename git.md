@@ -81,9 +81,9 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 
 ## 3. Configuración de nombre de usuario y correo de usuario en local y rama principal
 
-1. Establecer la identidad del usuario de forma global: `git config --global user.name "knnv-ar"`
+1. Establecer la identidad del usuario de forma global: `git config --global user.name "nombre-de-usuario"`
 2. Para verificar la identidad del usuario asignado al proyecto actual: `git config user.name`
-3. Establecer el correo del usuario de forma global: `git config --global user.email "knvv.ar@gmail.com"`
+3. Establecer el correo del usuario de forma global: `git config --global user.email "usuarior@gmail.com"`
 4. Para verificar el correo del usuario asignado al proyecto actual: `git config user.email`
 5. Establecer que el nombre de la rama principal sea <**main**>:
     1. Windows: `git config --global init.defaultbranch main`
