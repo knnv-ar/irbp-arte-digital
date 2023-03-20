@@ -116,7 +116,14 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 
 ---
 
-## 4. Crear un proyecto nuevo en local y vincular su repositorio en Github
+## 4. Establecer que el editor de código por defecto sea Visual Studio Code:
+
+1. Abrir una instancia de Git Bash en una carpeta vacía y escribir el siguiente comando: `code .`.
+2. Si no se abre una instancia del editor VSC deberemos escribir el siguiente comando: `git config --global core.editor "code --wait"`
+
+---
+
+## 5. Crear un proyecto nuevo en local y vincular su repositorio en Github
 
 1. Ejecutar Git Bash.
 2. Ir hasta la carpeta del proyecto.
@@ -124,7 +131,7 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 
 ---
 
-## 5. Crear un repositorio en GitHub y clonarlo en local
+## 6. Crear un repositorio en GitHub y clonarlo en local
 
 1. Crear un nuevo repositorio en Github.
 2. Copiar la **URL** con formato `git https`.
@@ -135,7 +142,7 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 
 ---
 
-## 6. Ramas
+## 7. Ramas
 
 ```bash
 # Ver las ramas que tengo en local:
@@ -149,7 +156,7 @@ git switch foo
 ```
 ---
 
-## 7. Agregar y quitar archivos en stage area
+## 8. Agregar y quitar archivos en stage area
 
 ```bash
 # Agregar archivo en stage area:
@@ -163,7 +170,7 @@ git reset HEAD -- .
 ```
 ---
 
-## 8. Comparar y fusionar ramas
+## 9. Comparar y fusionar ramas
 
 ```bash
 # Comparar las diferencias entre dos ramas (atender a los dos puntos que unen ambas):
