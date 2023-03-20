@@ -116,14 +116,24 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 
 ---
 
-## 4. Establecer que el editor de código por defecto sea Visual Studio Code:
+## 4. Cambiar email privado a email público
 
-1. Abrir una instancia de Git Bash en una carpeta vacía y escribir el siguiente comando: `code .`.
+1. Ir a GitHub > Settings > Emails y copiar la dirección de correo presente en el cuerpo del texto: por ej. : `123456789+nombre-usuario@users.noreply.github.com`
+2. Tildar la opción **Keep my email addresses private**.
+3. Tildar la opción **Block command line pushes that expose my email**.
+4. Abrir una instancia de Git Bash y ejecutar el siguiente comando pegando la dirección de correo copiada: `git config --global user.email <pegar la dirección de correo copiada>`
+5. Ejecutar el comando `git config user.email` para corroborar que se haya realizado el cambio.
+    
+---
+
+## 5. Establecer que el editor de código por defecto sea Visual Studio Code:
+
+1. Abrir una instancia de Git Bash en una carpeta vacía y escribir el siguiente comando: `code .`
 2. Si no se abre una instancia del editor VSC deberemos escribir el siguiente comando: `git config --global core.editor "code --wait"`
 
 ---
 
-## 5. Crear un proyecto nuevo en local y vincular su repositorio en Github
+## 6. Crear un proyecto nuevo en local y vincular su repositorio en Github
 
 1. Ejecutar Git Bash.
 2. Ir hasta la carpeta del proyecto.
@@ -131,7 +141,7 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 
 ---
 
-## 6. Crear un repositorio en GitHub y clonarlo en local
+## 7. Crear un repositorio en GitHub y clonarlo en local
 
 1. Crear un nuevo repositorio en Github.
 2. Copiar la **URL** con formato `git https`.
@@ -142,7 +152,7 @@ Los **sistemas de control de versiones distribuidos** son una forma de control d
 
 ---
 
-## 7. Ramas
+## 8. Ramas
 
 ```bash
 # Ver las ramas que tengo en local:
@@ -156,7 +166,7 @@ git switch foo
 ```
 ---
 
-## 8. Agregar y quitar archivos en stage area
+## 9. Agregar y quitar archivos en stage area
 
 ```bash
 # Agregar archivo en stage area:
@@ -170,7 +180,7 @@ git reset HEAD -- .
 ```
 ---
 
-## 9. Comparar y fusionar ramas
+## 10. Comparar y fusionar ramas
 
 ```bash
 # Comparar las diferencias entre dos ramas (atender a los dos puntos que unen ambas):
